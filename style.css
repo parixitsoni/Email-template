@@ -1,0 +1,35 @@
+   body{font-family: 'Roboto', sans-serif }
+     .container-full{width: 650px; max-width: 650px; background-color: #ffffff; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+     .table{-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%}
+     .space{width: 100%; max-width: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+      #main-container{width: 600px; max-width: 600px;}
+      #nav-logo{width: 1px; max-width: 141px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+      #nav-logo-size{width: 130px; max-width: 130px;}
+      #nav-list-font{ font-size: 14px; line-height: 24px; font-weight: 600;  text-transform: uppercase; text-align: center; height: 36px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; color: #5d5d5d; text-decoration: none;}
+      #small-line-spacing{height: 60px; line-height: 60px;  -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+      #top-spacing{height: 15px; line-height: 15px;  -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+      #pink-text{ display: inline-block; font-size: 18px; font-weight: 500; line-height: 24px; color: #E9425A; text-decoration: none; border: none;}
+      #top-text{ font-size: 18px; line-height: 24px; font-weight:500; color: #0C104E; text-align: left; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+      #image-heading-text{font-family: 'Poppins', sans-serif; font-size: 30px; line-height: 37px; font-weight: 700; color: #0C104E; text-align: left; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+      #image-body-text{ font-size: 15px; line-height: 24px; font-weight: 400;color: #0c0a0a; text-align: left; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+      #main-container-images{width: 100%; max-width: 100%; border-radius:5px;}
+      #image-container-heading-text{font-family: 'Poppins', sans-serif; font-size: 15px; line-height: 37px; font-weight: 700; color: #494949; text-align: left; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+      #footer-link{color: #080808; text-decoration: none; font-weight: bolder;}
+      #footer-link-align{min-height: 30px; height: 30px;  font-size: 13px; line-height: 24px; font-weight: 500;  text-transform: uppercase; text-align: center; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+      #button-td{background-color: #E9425A; padding: 12px 39px; border-radius: 10px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+      #button-link{ display: inline-block; font-size: 14px; font-weight: 500; line-height: 24px; color: #ffffff; text-decoration: none; border: none;  text-transform: uppercase;}
+      #email-link{ text-align: right; display: inline-block; font-size: 18px; font-weight: 600; line-height: 24px; color: #E9425A; text-decoration: none;}
+      #image-bottom-line{background-color: #E9425A;}
+      #image-bottom{width: 288px; max-width: 288px; margin-top: -6px;}
+      #margin-bottom{height: 20px; line-height: 20px;  -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+      #social-link-img{width: 45px; max-width: 45px; height: auto;}
+      #bottom-text{min-height: 30px; height: 30px;  font-size: 15px; line-height: 24px; text-align: center; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+      #footer-text-margin{width: 480px; max-width: 480px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+      #social-item-table{width: 288px; max-width: 288px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+      #medium-vertical-spacing{height: 30px; line-height: 30px;  -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+      #dark-seprator{font-size: 2px; line-height: 2px; background-color: rgb(0, 0, 0);}
+      #dark-seprator-table{width: 550px; max-width: 550px;}
+      #button-table{-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; margin-top: -10px;}
+      #table-margin{width: 24px; max-width: 24px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+      #table-margin-td{height: 12px; line-height: 12px;  -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+      #container-botttom-text{ font-size: 18px; line-height: 24px; font-weight:500; color: rgb(5, 5, 12); text-align: right; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
