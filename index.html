@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mailerstock</title>
+    
+  <style>
+      body{font-family: 'Roboto', sans-serif }
+     .container-full{width: 650px; max-width: 650px; background-color: #ffffff; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+     .table{-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%}
+     .space{width: 100%; max-width: 100%; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+      #main-container{width: 600px; max-width: 600px;}
+      #nav-logo{width: 1px; max-width: 141px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+      #nav-logo-size{width: 130px; max-width: 130px;}
+      #nav-list-font{ font-size: 14px; line-height: 24px; font-weight: 600;  text-transform: uppercase; text-align: center; height: 36px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; color: #5d5d5d; text-decoration: none;}
+      #small-line-spacing{height: 60px; line-height: 60px;  -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+      #top-spacing{height: 15px; line-height: 15px;  -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+      #pink-text{ display: inline-block; font-size: 18px; font-weight: 500; line-height: 24px; color: #E9425A; text-decoration: none; border: none;}
+      #top-text{ font-size: 18px; line-height: 24px; font-weight:500; color: #0C104E; text-align: left; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+      #image-heading-text{font-family: 'Poppins', sans-serif; font-size: 30px; line-height: 37px; font-weight: 700; color: #0C104E; text-align: left; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+      #image-body-text{ font-size: 15px; line-height: 24px; font-weight: 400;color: #0c0a0a; text-align: left; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+      #main-container-images{width: 100%; max-width: 100%; border-radius:5px;}
+      #image-container-heading-text{font-family: 'Poppins', sans-serif; font-size: 15px; line-height: 37px; font-weight: 700; color: #494949; text-align: left; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+      #footer-link{color: #080808; text-decoration: none; font-weight: bolder;}
+      #footer-link-align{min-height: 30px; height: 30px;  font-size: 13px; line-height: 24px; font-weight: 500;  text-transform: uppercase; text-align: center; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+      #button-td{background-color: #E9425A; padding: 12px 39px; border-radius: 10px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+      #button-link{ display: inline-block; font-size: 14px; font-weight: 500; line-height: 24px; color: #ffffff; text-decoration: none; border: none;  text-transform: uppercase;}
+      #email-link{ text-align: right; display: inline-block; font-size: 18px; font-weight: 600; line-height: 24px; color: #E9425A; text-decoration: none;}
+      #image-bottom-line{background-color: #E9425A;}
+      #image-bottom{width: 288px; max-width: 288px; margin-top: -6px;}
+      #margin-bottom{height: 20px; line-height: 20px;  -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+      #social-link-img{width: 45px; max-width: 45px; height: auto;}
+      #bottom-text{min-height: 30px; height: 30px;  font-size: 15px; line-height: 24px; text-align: center; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+      #footer-text-margin{width: 480px; max-width: 480px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+      #social-item-table{width: 288px; max-width: 288px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+      #medium-vertical-spacing{height: 30px; line-height: 30px;  -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+      #dark-seprator{font-size: 2px; line-height: 2px; background-color: rgb(0, 0, 0);}
+      #dark-seprator-table{width: 550px; max-width: 550px;}
+      #button-table{-ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; margin-top: -10px;}
+      #table-margin{width: 24px; max-width: 24px; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+      #table-margin-td{height: 12px; line-height: 12px;  -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+      #container-botttom-text{ font-size: 18px; line-height: 24px; font-weight:500; color: rgb(5, 5, 12); text-align: right; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+</style> 
+</head>
+
+<body>
+<table cellspacing="0" width="650px" cellpadding="0" border="0" align="center">
+<tbody>
+<tr>
+<td align="center" valign="top" class="table">
+               
+<!-- Navbar -->
+<table class="container-full" cellpadding="0" cellspacing="0" border="0" align="center">
+   <tbody>
+      <tr>
+         <td align="center" valign="middle" class="table">
+            <table class="container" width="650px" align="center" border="0" cellpadding="0" cellspacing="0" id=main-container>
+               <tbody>
+                  <tr>
+                     <td align="center" valign="middle" class="table">
+                        <!--Top Space-->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="space">
+                           <tbody>
+                              <tr>
+                                 <td valign="middle" align="left" height="15" id="top-spacing"></td>
+                              </tr>
+                           </tbody>
+                        </table>
+                        
+                        <!-- Navbar -->
+                        <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center" class="table">
+                           <tbody>
+                              <tr>
+                                 <td align="center" valign="top" class="table">
+                           <!-- Logo -->
+                           <table width="141" align="left" border="0" cellspacing="0" cellpadding="0" id="nav-logo">
+                              <tbody>
+                                 <tr>
+                                       <td align="center" valign="middle">
+                                             <a href="#"><img src="Images/logo.png" width="130" id="nav-logo-size"></a>
+                                       </td>
+                              </tbody>
+                           </table>
+               
+                           <!-- Menu -->
+                        <table width="394" align="right" border="0" cellspacing="0" cellpadding="0">
+                           <tbody>
+                              <tr>
+                                 <td valign="middle" align="center" id="nav-list-font">
+                                    <a href="#" id= "nav-list-font">HOME</a>
+                                 </td>                                 
+
+                                 <td valign="middle" align="center" id="nav-list-font">
+                                    <a href="#"id= "nav-list-font">PORTFOLIO</a>
+                                 </td>
+
+                                 <td valign="middle" align="center" id="nav-list-font">
+                                    <a href="#"id= "nav-list-font">ABOUT</a>
+                                 </td>
+
+                                 <td valign="middle" align="center" id="nav-list-font">
+                                    <a href="#"id= "nav-list-font">BLOGS</a>
+                                 </td>
+
+                                 <td valign="middle" align="center" id="nav-list-font">
+                                    <a href="#"id= "nav-list-font">CONTACT</a>
+                                 </td>
+                              </tr>
+                           </tbody> 
+                        </table>
+
+                        
+                        <!-- Spacing -->
+                        <table width="100%" cellpadding="0" cellspacing="0" border="0" align="left">
+                           <tbody>
+                              <tr>
+                                 <td valign="middle" align="left" height="60" id="small-line-spacing"></td>
+                              </tr>
+                           </tbody>
+                        </table>
+
+                        <!-- Welcome Text -->
+                        <table width="100%" align="right" border="0" cellspacing="0" cellpadding="0" class="space">
+                           <tbody>
+                              <tr>
+                                 <td valign="middle" align="center" id="top-text">
+                                    We build next generation <a href="#" id="pink-text"> email templates</a> Inspired <br> by the modern trend and crafted with precision <br> for your brand story.
+                                 </td>
+                              </tr>
+                           </tbody>
+                        </table> 
+
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+         </td>
+      </tr>
+   </tbody>
+            </table>
+            </td>
+      </tr>
+   </tbody>
+</table>
+
+<!-- First image -->
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center" class="table">
+   <tbody>
+      <tr>
+         <td align="center" valign="top" class="table">
+            <!-- Container Full -->
+            <table class="container-full" width="700" cellpadding="0" cellspacing="0" border="0" align="center">
+               <tbody>
+                  <tr>
+                     <td align="center" valign="middle" class="table">
+                        <table class="container" width="600" align="center" border="0" cellpadding="0" cellspacing="0" id=main-container>
+                           <tbody>
+                              <tr>
+                                 <td align="center" valign="middle" class="table">
+                                 <!-- Vertical Spacing -->
+                                 <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="space">
+                                    <tbody>
+                                       <tr>
+                                          <td valign="middle" align="center" height="60" id="small-line-spacing"></td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+
+                                 <!-- Main Container -->
+                                 <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center" class="table">
+                                    <tbody>
+                                       <tr>
+                                          <td align="center" valign="top" class="table">
+                                          <!-- Image-1 -->
+                                          <table width="288" align="left" border="0" cellpadding="0" cellspacing="0" id="table-head">
+                                             <tbody>
+                                                <tr>
+                                                   <td valign="middle" align="center" class="table">
+                                                      <img src="Images/feature-image-01.png" width="288" id="main-container-images">
+                                                   </td>                                                              
+                                                </tr>
+                                             </tbody>
+                                          </table>
+
+                                          <!-- Margin -->
+                                          <table cellpadding="0" cellspacing="0" border="0" align="left" width="24" id="table-margin">
+                                             <tbody>  
+                                                <tr>
+                                                   <td align="center" valign="middle" id="table-margin-td"></td>
+                                                </tr>
+                                             </tbody>
+                                          </table>
+
+                                          <!-- left Container -->
+                                          <table width="288" align="right border="0" cellpadding="0" cellspacing="0" style="width: 288px; max-width: 288px;">
+                                             <tbody>
+                                                <tr>
+                                                   <td valign="top" class="table">
+                                                      <!-- Small Vertical Spacing -->
+                                                      <table width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="space">
+                                                         <tbody>
+                                                            <tr>
+                                                               <td valign="middle" align="center" id="image-container-heading-text">
+                                                                  CAMPAIGN                   
+                                                               </td>
+                                                            </tr>
+                                                         </tbody>
+                                                      </table> 
+                                                      <!-- Heading -->
+                                                      <table width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="space">
+                                                         <tbody>
+                                                            <tr>
+                                                               <td valign="middle" align="center" id="image-heading-text">
+                                                               Winter is coming
+                                                               </td>
+                                                            </tr>
+                                                         </tbody>
+                                                      </table>
+                                             
+                                                      <!-- Description -->
+                                                      <table width="100%" align="right" border="0" cellspacing="0" cellpadding="0" class="space">
+                                                         <tbody>
+                                                            <tr>
+                                                               <td valign="middle" align="center" id="image-body-text">
+                                                                  Creative social media campaign for facebook, twitter and instagram platform.
+                                                               </td>
+                                                            </tr>
+                                                         </tbody>
+                                                      </table> 
+                                                      <!-- Medium Vertical Spacing -->
+                                                      <table width="100%" cellpadding="0" cellspacing="0" border="0" align="right" class="space">
+                                                         <tbody>
+                                                            <tr>
+                                                               <td valign="middle" align="center" height="30" id="medium-vertical-spacing"></td>
+                                                            </tr>
+                                                         </tbody>
+                                                      </table>
+                                                      <!-- Button -->
+                                                      <table align="left" cellspacing="0" cellpadding="0" id="button-table">
+                                                         <tbody>
+                                                            <tr>
+                                                               <td align="left" id="button-td">
+                                                                  <a href="#" id="button-link">
+                                                                     BROWSE PHOTOS
+                                                                  </a>
+                                                               </td>
+                                                            </tr>
+                                                         </tbody>
+                                                      </table>
+                                                   </td>
+                                                </tr>
+                                             </tbody>
+                                          </table>
+
+                                          </td>
+                                          </tr>
+                                          </tbody>
+                                 </table>
+
+                                 <!-- Image Bootom margin -->
+                                 <table width="36" border="0" cellpadding="0" cellspacing="0" align="left" id="image-bottom">
+                                    <tbody>
+                                       <tr>
+                                          <td align="left" valign="middle" height="3" id="image-bottom-line"></td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+
+                                 <!-- Large Vertical Spacing -->
+                                 <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="space">
+                                    <tbody>
+                                       <tr>
+                                          <td valign="middle" align="center" height="60" id="small-line-spacing"></td>
+                                       </tr
+                                    </tbody>
+                                 </table>
+
+                                 </td>
+                              </tr>   
+                           </tbody>
+                        </table>   
+                     </td>
+                  </tr>
+               </tbody>
+            </table>
+         </td>
+      </tr>
+   </tbody>
+</table>
+
+<!-- Second Image -->
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center" class="table">
+<tbody>
+<tr>
+   <td align="center" valign="top" class="table">
+      <!-- Container Full -->
+      <table class="container-full" width="700" cellpadding="0" cellspacing="0" border="0" align="center">
+         <tbody>
+            <tr>
+               <td align="center" valign="middle" class="table">
+                  <table class="container" width="600" align="center" border="0" cellpadding="0" cellspacing="0" id=main-container>
+                     <tbody>
+                        <tr>
+                           <td align="center" valign="middle" class="table">
+                              <!-- Main Container -->
+                              <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center" class="table">
+                                 <tbody>
+                                    <tr>
+                                       <td align="center" valign="top" class="table">
+                                          <!-- left Container -->
+                                          <table width="288" align="left" border="0" cellpadding="0" cellspacing="0" style="width: 288px; max-width: 288px;">
+                                                <tbody>
+                                                   <tr>
+                                                      <td valign="top" class="table">
+               <!-- Small Vertical Spacing -->
+               <table width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="space">
+                  <tbody>
+                     <tr>
+                        <td valign="middle" align="center" id="image-container-heading-text">WEBSITE</td>
+                     </tr>
+                  </tbody>
+               </table> 
+
+               <!-- Heading -->
+               <table width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="space">
+                  <tbody>
+                     <tr>
+                        <td valign="middle" align="center" id="image-heading-text">
+                           What's coming?
+                        </td>
+                     </tr>
+                  </tbody>
+               </table>      
+
+               <!-- Description -->
+               <table width="100%" align="right" border="0" cellspacing="0" cellpadding="0" class="space">
+                  <tbody>
+                     <tr>
+                        <td valign="middle" align="center" id="image-body-text">
+                           Crafted a website to spread <br> awarness for saving  diffrent species.
+                        </td>
+                     </tr>
+                  </tbody>
+               </table> 
+
+               <!-- Medium Vertical Spacing -->
+               <table width="100%" cellpadding="0" cellspacing="0" border="0" align="right" class="space">
+                  <tbody>
+                     <tr>
+                        <td valign="middle" align="center" height="30" id="medium-vertical-spacing"></td>
+                     </tr>
+                  </tbody>
+               </table>
+
+               <!-- Button -->
+               <table align="left" cellspacing="0" cellpadding="0" id="button-table">
+                  <tbody>
+                     <tr>
+                        <td align="left" id="button-td">
+                           <a href="#" id="button-link">
+                              VISIT WEBSITE
+                           </a>
+                        </td>
+                     </tr>
+                  </tbody>
+               </table>
+
+                                                      </td>
+                                                   </tr>
+                                                </tbody>
+                                          </table>
+                                             
+                                          <!-- Image Container -->
+                                          <table width="288" align="left" border="0" cellpadding="0" cellspacing="0" style="width: 288px; max-width: 288px;">
+                                                <tbody>
+                                                   <tr>
+                                                      <td valign="middle" align="center" class="table">
+                                                         <img src="Images/feature-image-02.png" width="288" id="main-container-images">
+                                                      </td>                                                              
+                                                   </tr>
+                                                </tbody>
+                                          </table>
+
+                                          <!-- Image Bottom margin -->
+                                          <table border="0" cellpadding="0" cellspacing="0" align="right" id="image-bottom">
+                                                <tbody>
+                                                   <tr>
+                                                      <td align="right" height="3" id="image-bottom-line"></td>
+                                                   </tr>
+                                                </tbody>
+                                          </table>                                      
+
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                              </table> 
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </td>
+            </tr>
+         </tbody>
+      </table>
+   </td>
+</tr>
+</tbody>
+</table>
+
+<!-- Third Image -->
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center" class="table">
+   <tbody>
+      <tr>
+         <td align="center" valign="top" class="table">
+            <!-- Container Full -->
+         <table class="container-full" width="700" cellpadding="0" cellspacing="0" border="0" align="center">
+            <tbody>
+               <tr>
+                  <td align="center" valign="middle" class="table">
+                     <table class="container" width="600" align="center" border="0" cellpadding="0" cellspacing="0" id=main-container>
+                        <tbody>
+                           <tr>
+                              <td align="center" valign="middle" class="table">
+                                 <!-- Large Vertical Spacing -->
+                                 <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="space">
+                                    <tbody>
+                                       <tr>
+                                          <td valign="middle" align="center" height="60" id="small-line-spacing"></td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+
+                                 <!-- Main Container -->
+                                 <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center" class="table">
+                                    <tbody>
+                                       <tr>
+                                             <td align="center" valign="top" class="table">
+                                             <!-- Image Container -->
+                                             <table width="288" align="left" border="0" cellpadding="0" cellspacing="0" style="width: 288px; max-width: 288px;">
+                                                <tbody>
+                                                   <tr>
+                                                      <td valign="middle" align="center" class="table">
+                                                         <img src="Images/feature-image-03.png" width="288" id="main-container-images">
+                                                      </td>                                                              
+                                                   </tr>
+                                                </tbody>
+                                             </table>
+                                             
+                                             <!-- Image Container Margin -->
+                                             <table cellpadding="0" cellspacing="0" border="0" align="left" width="24" id="table-margin">
+                                                <tbody>  
+                                                   <tr>
+                                                      <td align="center" valign="middle" id="table-margin-td"></td>
+                                                   </tr>
+                                                </tbody>
+                                             </table>
+
+                                             <!-- left Container -->
+                                             <table width="288" align="right border="0" cellpadding="0" cellspacing="0" style="width: 288px; max-width: 288px;">
+                                                <tbody>
+                                                   <tr>
+                                                      <td valign="top" class="table">
+                                                         <!-- Small Vertical Spacing -->
+                                                         <table width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="space">
+                                                            <tbody>
+                                                               <tr>
+                                                                  <td valign="middle" align="center" id="image-container-heading-text">
+                                                                     PHOTOGRAPHY                   
+                                                                  </td>
+                                                               </tr>
+                                                            </tbody>
+                                                         </table> 
+
+                                                         <!-- Heading -->
+                                                         <table width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="space">
+                                                            <tbody>
+                                                               <tr>
+                                                                  <td valign="middle" align="center" id="image-heading-text">
+                                                                  Now you see me
+                                                                  </td>
+                                                               </tr>
+                                                            </tbody>
+                                                         </table>
+                                                
+                                                         <!-- Description -->
+                                                         <table width="100%" align="right" border="0" cellspacing="0" cellpadding="0" class="space">
+                                                            <tbody>
+                                                               <tr>
+                                                                  <td valign="middle" align="center" id="image-body-text">
+                                                                     Amazing shots by talented <br> photographer from the team.
+                                                                  </td>
+                                                               </tr>
+                                                            </tbody>
+                                                         </table> 
+
+                                                         <!-- Medium Vertical Spacing -->
+                                                         <table width="100%" cellpadding="0" cellspacing="0" border="0" align="right" class="space">
+                                                            <tbody>
+                                                               <tr>
+                                                                  <td valign="middle" align="center" height="30" id="medium-vertical-spacing"></td>
+                                                               </tr>
+                                                            </tbody>
+                                                         </table>
+
+                                                         <!-- Button -->
+                                                         <table align="left" cellspacing="0" cellpadding="0" id="button-table">
+                                                            <tbody>
+                                                               <tr>
+                                                                  <td align="left" id="button-td">
+                                                                     <a href="#" id="button-link">
+                                                                        BROWSE PHOTOS
+                                                                     </a>
+                                                                  </td>
+                                                               </tr>
+                                                            </tbody>
+                                                         </table>
+
+                                                      </td>
+                                                   </tr>
+                                                </tbody>
+                                             </table>
+
+                                          </td>
+                                          </tr>
+                                    </tbody>
+                                 </table>
+                                 
+                                 <!-- Spacing -->
+                                 <table width="36" border="0" cellpadding="0" cellspacing="0" align="left" id="image-bottom">
+                                    <tbody>
+                                       <tr>
+                                          <td align="left" valign="middle" height="3" id="image-bottom-line"></td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+
+                                 <!-- Large Vertical Spacing -->
+                                 <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="space">
+                                    <tbody>
+                                       <tr>
+                                          <td valign="middle" align="center" height="60" id="small-line-spacing"></td>
+                                       </tr
+                                    </tbody>
+                                 </table>
+                              </td>
+                           </tr>
+
+                        </tbody>
+                     </table>
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+         </td>
+      </tr>
+   </tbody>
+</table>
+
+<!-- Fourth Image -->
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center" class="table">
+<tbody>
+   <tr>
+      <td align="center" valign="top" class="table">
+         <!-- Container Full -->
+         <table class="container-full" width="700" cellpadding="0" cellspacing="0" border="0" align="center">
+            <tbody>
+               <tr>
+                  <td align="center" valign="middle" class="table">
+                     <table class="container" width="600" align="center" border="0" cellpadding="0" cellspacing="0" id=main-container>
+                        <tbody>
+                           <tr>
+                              <td align="center" valign="middle" class="table">
+
+                                 <!-- Main Container -->
+                                 <table width="100%" cellspacing="0" cellpadding="0" border="0" align="center" class="table">
+                                    <tbody>
+                                       <tr>
+                                          <td align="center" valign="top" class="table">
+                                             <!-- left Container -->
+                                             <table width="288" align="left" border="0" cellpadding="0" cellspacing="0" id="table-top">
+                                             <tbody>
+                                             <tr>
+                                                <td valign="top" class="table">
+
+                                                <!-- Small Vertical Spacing -->
+                                                <table width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="space">
+                                                   <tbody>
+                                                      <tr>
+                                                         <td valign="middle" align="center" id="image-container-heading-text">
+                                                            PRODUCT                   
+                                                         </td>
+                                                      </tr>
+                                                   </tbody>
+                                                </table> 
+
+                                                <!-- Heading -->
+                                                <table width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="space">
+                                                   <tbody>
+                                                      <tr>
+                                                         <td valign="middle" align="center" id="image-heading-text">
+                                                         Explore the world
+                                                         </td>
+                                                      </tr>
+                                                   </tbody>
+                                                </table>  
+                                                                                                         
+                                                <!-- Description -->
+                                                <table width="100%" align="right" border="0" cellspacing="0" cellpadding="0" class="space">
+                                                   <tbody>
+                                                      <tr>
+                                                         <td valign="middle" align="center" id="image-body-text">
+                                                            Crafted a website to spread <br> awarness for saving diffrent species.
+                                                         </td>
+                                                      </tr>
+                                                   </tbody>
+                                                </table> 
+
+                                                <!-- Medium Vertical Spacing -->
+                                                <table width="100%" cellpadding="0" cellspacing="0" border="0" align="right" class="space">
+                                                   <tbody>
+                                                      <tr>
+                                                         <td valign="middle" align="center" height="30" id="medium-vertical-spacing"></td>
+                                                      </tr>
+                                                   </tbody>
+                                                </table>
+
+                                                <!-- Button -->
+                                                <table align="left" cellspacing="0" cellpadding="0" id="button-table">
+                                                   <tbody>
+                                                      <tr>
+                                                         <td align="left" id="button-td">
+                                                            <a href="#" id="button-link">
+                                                               VISIT WEBSITE
+                                                            </a>
+                                                         </td>
+                                                      </tr>
+                                                   </tbody>
+                                                </table>
+                                                
+                                             </td>
+                                          </tr>
+                                       </tbody>
+                                            </table>
+                                             
+                                             <!-- Image Container -->
+                                             <table width="288" align="left" border="0" cellpadding="0" cellspacing="0" class="table-image">
+                                                <tbody>
+                                                   <tr>
+                                                      <td valign="middle" align="center" class="table">
+                                                         <img src="Images/feature-image-04.png" width="288" id="main-container-images">
+                                                      </td>                                                              
+                                                   </tr>
+                                                </tbody>
+                                             </table>
+
+                                             <!-- Image Container margin -->
+                                             <table width="288" border="0" cellpadding="0" cellspacing="0" align="right" id="image-bottom">
+                                                <tbody>
+                                                   <tr>
+                                                      <td align="right"  height="3" id="image-bottom-line"></td>
+                                                   </tr>
+                                                </tbody>
+                                             </table>
+                                             
+                                             <!-- Large Vertical Spacing -->
+                                             <table width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="space">
+                                                <tbody>
+                                                   <tr>
+                                                      <td valign="middle" align="left" height="60" id="small-line-spacing"></td>
+                                                   </tr>
+                                                </tbody>
+                                             </table>
+         
+                                             <!-- Container Bottom text -->
+                                             <table width="100%" align="right" border="0" cellspacing="0" cellpadding="0" class="space">
+                                                <tbody>
+                                                   <tr>
+                                                      <td valign="middle" align="right" id="container-botttom-text">
+                                                         If you want to know more or have any doubt <br> in your mind, please feel free to reach us <br> at                                                                           
+                                                         <a href="#" id="email-link">
+                                                         contact@getwork.com
+                                                      </a>
+                                                      </td>
+                                                   </tr>
+                                                </tbody>
+                                             </table>   
+
+                                             <!-- Large Vertical Spacing -->
+                                             <table width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="space">
+                                             <tbody>
+                                                <tr>
+                                                   <td valign="middle" align="left" height="40" id="medium-vertical-spacing"></td>
+                                                </tr>
+                                             </tbody>
+                                             </table>                                                          
+                                          </td>
+                                     </tr>
+                                    </tbody>
+                                 </table>  
+
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </td>
+               </tr>
+            </tbody>
+         </table>
+      </td>
+   </tr>
+</tbody>
+</table>       
+
+<!-- Footer -->
+<table width="100%" cellspacing="0" cellpadding="0" border="0" align="center" class="table">
+<tbody>
+   <tr>
+      <td align="center" valign="top" class="table">
+         <!-- Container Full -->
+         <table class="container-full" width="700" cellpadding="0" cellspacing="0" border="0" align="center">
+            <tbody>
+               <tr>
+                  <td align="center" valign="middle" class="table">
+                     <table class="container" width="600" align="center" border="0" cellpadding="0" cellspacing="0" id=main-container>
+                        <tbody>
+                           <tr>
+                              <td align="left" valign="middle" class="table">
+                              <!-- Dark divider line -->
+                              <table width="50" border="0" cellpadding="0" cellspacing="0" align="center" id="dark-seprator-table">
+                                 <tbody>
+                                    <tr>
+                                       <td align="center" valign="middle" height="2" id="dark-seprator"></td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+
+                              <!-- Dark Live bottom margin -->
+                              <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="space">
+                                 <tbody>
+                                    <tr>
+                                       <td valign="middle" align="center" height="15" id="top-spacing"></td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+
+                              <!-- Space -->
+                              <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="space">
+                                 <tbody>
+                                    <tr>
+                                       <td valign="middle" align="center" height="20" id="margin-bottom"></td>
+                                    </tr>
+                                    </tbody>
+                              </table>
+
+                              <!-- logo  -->
+                              <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="space">
+                                 <tbody>
+                                 <td valign="middle" align="center" class="table">
+                                    <a style="text-decoration: none;">
+                                       <img src="Images/logo.png" width="45" id="social-link-img">
+                                    </a>
+                                 </td>
+                                 </tbody>
+                              </table>
+
+                              <!-- Social Items -->
+                              <table align="center" border="0" cellspacing="0" cellpadding="0" width="288" id="social-item-table">
+                                 <tbody>
+                                    <tr>
+                                       <td valign="middle" align="center" class="table">
+                                          <!-- Space -->
+                                          <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="space">
+                                             <tbody>
+                                                <tr>
+                                                   <td valign="middle" align="center" height="20" id="margin-bottom"></td>
+                                                </tr>
+                                             </tbody>
+                                          </table>
+
+                                          <!-- Social links -->
+                                          <table width="100%" align="center" border="0" cellspacing="0" cellpadding="0" class="space">
+                                             <tbody>
+                                                <tr>
+                                                   <td valign="middle" align="center" class="table">
+                                                      <a href="#" style="text-decoration: none;">
+                                                         <img src="Images/facebook-icon.png" width="45" id="social-link-img">
+                                                      </a>
+                                                   </td>
+                                                   <td valign="middle" align="center" class="table">
+                                                      <a href="#" style="text-decoration: none;">
+                                                         <img src="Images/twitter-icon.png" width="45" id="social-link-img">
+                                                      </a>
+                                                   </td>
+                                                   <td valign="middle" align="center" class="table">
+                                                      <a href="#" style="text-decoration: none;">
+                                                         <img src="Images/linedin-icon.png" width="45" id="social-link-img">
+                                                      </a>
+                                                   </td>
+                                                   <td valign="middle" align="center" class="table">
+                                                      <a href="#" style="text-decoration: none;">
+                                                         <img src="Images/instagram-icon.png" width="45" id="social-link-img">
+                                                      </a>
+                                                   </td>
+                                                   <td valign="middle" align="center" class="table">
+                                                      <a href="#" style="text-decoration: none;">
+                                                         <img src="Images/dribbble-icon.png" width="45" id="social-link-img">
+                                                      </a>
+                                                   </td>
+                                                </tr>
+                                             </tbody>
+                                          </table>
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+
+                              <!-- Space -->
+                              <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="space">
+                                 <tbody>
+                                    <tr>
+                                       <td valign="middle" align="center" height="20" id="margin-bottom"></td>
+                                    </tr>
+                                 </tbody>
+                              </table>                              
+
+                              <!-- Medium Vertical Spacing -->
+                              <table width="100%" cellpadding="0" cellspacing="0" border="0" align="left" class="space">
+                                 <tbody>
+                                    <tr>
+                                       <td valign="middle" align="center" height="30" id="bottom-text">
+                                          This email was sent to newsletters@email.com
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                              </table> 
+
+                              <!-- Space -->
+                              <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="space">
+                                 <tbody>
+                                    <tr>
+                                       <td valign="middle" align="center" height="20" id="margin-bottom"></td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+
+                              <!-- Footer links -->
+                              <table align="center" border="0" cellspacing="0" cellpadding="0" width="480" id="footer-text-margin">
+                                 <tbody>
+                                    <tr>
+                                       <td valign="middle" align="center" height="30" id="footer-link-align">
+                                          <a href="#" id="footer-link">Privacy Policy</a>
+                                       </td>
+
+                                       <td valign="middle" align="center" height="30" id="footer-link-align">
+                                       <a href="#" id="footer-link">Contact us</a>
+                                       </td>
+
+                                       <td valign="middle" align="center" height="30" id="footer-link-align">
+                                          <a href="#" id="footer-link">Unsubscribe</a>
+                                       </td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+
+                              <!-- Space -->
+                              <table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" class="space">
+                                 <tbody>
+                                    <tr>
+                                       <td valign="middle" align="center" height="20" id="margin-bottom"></td>
+                                    </tr>
+                              </tbody>
+                              </table>
+
+                              </td>
+                           </tr>
+                        </tbody>
+                     </table>
+                  </td>
+               </tr>
+
+            </tbody>
+         </table>
+      </td>
+   </tr>
+</tbody>
+</table>
+
+</td>
+</tr>
+</tbody>
+</table>   
+</body>
+</html>
